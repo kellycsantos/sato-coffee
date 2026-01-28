@@ -1,0 +1,17 @@
+@use '@/app/styles/colors.module.scss' as *;
+.filter{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    button{
+        background-color: transparent;
+        color: $text-color;
+        text-transform: capitalize;
+
+        &:disabled {
+                
+                background-color: $rich-gray;
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+@use '@/app/styles/colors.module.scss' as *;
+
+.container {
+    width: 70dvw;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 80dvh;
+    color: $text-color;
+    background-color: $carbon-black;
+    position: relative !important;
+    top: -15dvh !important;
+    padding: 2.5rem;
+    border-radius: .5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90dvw;
+    }
+}

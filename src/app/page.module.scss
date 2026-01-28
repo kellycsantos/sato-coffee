@@ -1,0 +1,24 @@
+@use '@/app/styles/colors.module.scss' as *;
+.page{
+    h1{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+        color: $subtitle-color;
+        padding-block: 12px;
+    }
+    
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+}
+
+
